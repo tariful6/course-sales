@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className=' bg-black text-white py-6'>
-            <div className='container mx-auto flex justify-between items-center'>
+            <div className='px-[10%] container mx-auto flex justify-between items-center'>
                <div className=' text-2xl font-bold cursor-pointer '>LMS TUTOR</div>
                <div>
                     <ul className=' flex items-center gap-6'>
