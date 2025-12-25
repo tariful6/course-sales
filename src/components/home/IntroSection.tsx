@@ -13,9 +13,8 @@ export default function IntroSection() {
                 <AnimatedElement
                   className="content-box wide"
                 >
-                  <div className="heading-lg line-1">
-                    <span className="font-hand-of-sean">Introducing...</span>
-                    <br />The Seller Financing Navigator
+                  <div className=" py-3">
+                    Our Upcoming Cources
                   </div>
                 </AnimatedElement>
               </div>
@@ -24,9 +23,7 @@ export default function IntroSection() {
                 delay={0.1}
               >
                 Your All-Access Pass to
-                <span className="text-style-underline"> Wall Street&apos;s Unfair Advantage </span>
-                for Finding, Negotiating and Acquiring Cash-Flowing
-                Businesses <em>Using</em> Seller Financing
+
               </AnimatedElement>
             </div>
           </div>
@@ -36,15 +33,35 @@ export default function IntroSection() {
             className="margin-bottom-lg"
             delay={0.2}
           >
-            <Image
-              src="/images/self-liquidation-1695.webp"
-              alt="Self Liquidation Image"
-              width={1695}
-              height={954}
-              sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 93vw"
-              className="full-width-image"
-              priority={false}
-            />
+            <div className=' grid grid-cols-3 gap-6'>
+              <Image
+                src="/images/nodejs-frameworks.png"
+                alt="Self Liquidation Image"
+                width={1695}
+                height={954}
+                sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 93vw"
+                className="full-width-image"
+                priority={false}
+              />
+              <Image
+                src="/images/web.jpg"
+                alt="Self Liquidation Image"
+                width={1695}
+                height={954}
+                sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 93vw"
+                className="full-width-image"
+                priority={false}
+              />
+              <Image
+                src="/images/js.png"
+                alt="Self Liquidation Image"
+                width={1695}
+                height={954}
+                sizes="(max-width: 479px) 93vw, (max-width: 767px) 95vw, 93vw"
+                className="full-width-image"
+                priority={false}
+              />
+            </div>
           </AnimatedElement>
           <div>
             <CTAButton />

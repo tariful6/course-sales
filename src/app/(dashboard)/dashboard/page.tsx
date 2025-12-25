@@ -25,6 +25,7 @@ export default async function StudentDashboardPage() {
 
   // Fetch user's courses with progress from database
   const coursesResult = await getUserCourses(user.id);
+  console.log(coursesResult);
   
   // Fetch user's learning streak
   const streakResult = await getUserStreak(user.id);
@@ -39,10 +40,11 @@ export default async function StudentDashboardPage() {
           let totalSeconds = 0;
           course.modules.forEach((module: any) => {
             module.lessons?.forEach((lesson: any) => {
-              totalSeconds += lesson.videoDuration || 0;
+              totalSeconds += lesson.videoDuration || 0; 
             });
           });
           totalMinutes = Math.ceil(totalSeconds / 60);
+          console.log(totalMinutes);
         }
         
         return {

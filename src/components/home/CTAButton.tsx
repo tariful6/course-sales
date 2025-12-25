@@ -62,7 +62,7 @@ export default function CTAButton() {
           <button
             onClick={handleClick}
             disabled={loading}
-            className="button-primary inline-block"
+            className="button-primary bg-blue-600! inline-block"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             style={{ 
@@ -98,17 +98,6 @@ export default function CTAButton() {
             </div>
           </button>
         </div>
-      </div>
-      <div className="trusted-group">
-        <div className="trusted-icon">
-          <Image
-            src="/images/trusted.png"
-            alt="Trusted partners"
-            width={120}
-            height={40}
-          />
-        </div>
-        <div>Trusted by 600K+ Contrarians</div>
       </div>
     </AnimatedElement>
   );

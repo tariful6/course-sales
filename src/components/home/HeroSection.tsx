@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="padding-global">
         <div className="container-content">
           <div className="logo-wrapper">
-            <AnimatedElement
+            {/* <AnimatedElement
               as="a"
               href="/"
               aria-current="page"
@@ -16,24 +16,24 @@ export default function HeroSection() {
               threshold={0.1}
             >
               <Image
-                src="/images/logo.svg"
+                src="/images/logo.png"
                 alt="Contrarian Thinking logo"
                 width={200}
                 height={50}
                 priority={true}
               />
-            </AnimatedElement>
+            </AnimatedElement> */}
           </div>
-          <div className="center-headlines">
+          <div className="center-headlines py-36">
             <div className="margin-bottom-xxs">
               <AnimatedElement
                 as="h1"
                 delay={0.1}
                 threshold={0.1}
               >
-                Former Wall Street Veteran Reveals the Secret to
-                <span className="text-color-primary"> Buying Profitable, Cash Flowing Businesses </span>
-                Without Banks, Credit, or Needing Millions.
+                Welcome,
+                <span className="text-color-primary"> To Our LMS Website </span>
+              
               </AnimatedElement>
             </div>
             <div className="margin-bottom-xxs">
@@ -48,7 +48,7 @@ export default function HeroSection() {
               </AnimatedElement>
             </div>
           </div>
-          <AnimatedElement
+          {/* <AnimatedElement
             className="video-holder"
             animation="fadeInUpLarge"
             delay={0.3}
@@ -56,7 +56,7 @@ export default function HeroSection() {
             suppressHydrationWarning
           >
             <WistiaEmbed />
-          </AnimatedElement>
+          </AnimatedElement> */}
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function Accordion({ title, children }: AccordionProps) {
       setHeight(contentRef.current.scrollHeight);
     }
   }, [children]);
-
+  
   return (
     <div className="faq-accordion">
       <div

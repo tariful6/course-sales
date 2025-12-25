@@ -13,7 +13,7 @@ export default function Footer() {
                 className="footer-logo inline-block current"
               >
                 <Image
-                  src="/images/footer-logo.svg"
+                  src="/images/logo.png"
                   alt="Contrarian Thinking logo"
                   width={200}
                   height={50}

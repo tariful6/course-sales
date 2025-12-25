@@ -5,17 +5,19 @@ import ChecklistSection from "@/components/home/ChecklistSection";
 import CourseTabSection from "@/components/home/CourseTabSection";
 import FAQSection from "@/components/home/FAQSection";
 import Footer from "@/components/home/Footer";
+import Navbar from "@/components/home/Navbar";
 
 
 export default function Home() {
   return (
     <div className="page-wrapper">
       <div className="main-wrapper bg-pattern">
+        <Navbar></Navbar>
         <HeroSection />
         <IntroSection />
-        <SellerFinancingSection />
+        {/* <SellerFinancingSection /> */}
         <ChecklistSection />
-        <CourseTabSection />
+        {/* <CourseTabSection /> */}
         <FAQSection />
         <Footer />
       </div>

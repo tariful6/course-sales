@@ -13,7 +13,7 @@ export default function ChecklistSection() {
             <div className="center-headlines">
               <div className="margin-bottom-md">
                 <h2 className="heading-lg">
-                  Here&apos;s What This Means For You...
+                  Here&apos;s You Can Purcess our All Courses...
                 </h2>
               </div>
             </div>
@@ -22,37 +22,8 @@ export default function ChecklistSection() {
                 role="list"
                 className="checklist-wrapper gap-lg list-unstyled"
               >
-                <li className="checklist is-justify-top">
-                  <div className="bullet-check"></div>
-                  <div className="gap-sm">
-                    <h3>
-                      You&apos;ll No Longer Be Limited By Your Current Capital.
-                    </h3>
-                    <div className="text-size-md">
-                      While others are stuck lining up financing, battling
-                      rejection from banks, or slowly saving up for years...
-                      You&apos;ll be engaging directly with eager sellers,
-                      handpicking the businesses that align with your buying
-                      criteria.
-                    </div>
-                  </div>
-                </li>
-                <li className="checklist is-justify-top">
-                  <div className="bullet-check"></div>
-                  <div className="gap-sm">
-                    <h3>
-                      Access opportunities that were previously out of
-                      reach.
-                    </h3>
-                    <div className="text-size-md">
-                      While others are limited by their savings accounts,
-                      stuck dreaming of owning a business but feeling
-                      financially restricted... you&apos;re strategically
-                      targeting businesses with strong cash flow, knowing
-                      they can finance your path to ownership.
-                    </div>
-                  </div>
-                </li>
+
+
                 <li className="checklist is-justify-top">
                   <div className="bullet-check"></div>
                   <div className="gap-sm">
@@ -67,19 +38,7 @@ export default function ChecklistSection() {
                     </div>
                   </div>
                 </li>
-                <li className="checklist is-justify-top">
-                  <div className="bullet-check"></div>
-                  <div className="gap-sm">
-                    <h3>Reduce Your Risk When Acquiring Businesses.</h3>
-                    <div className="text-size-md">
-                      While others are taking on debt and investing their
-                      own money.. you&apos;ll confidently navigate the world of
-                      acquisitions, knowing you&apos;ve minimized risk by
-                      leveraging the business&apos;s own success to fuel your
-                      own.
-                    </div>
-                  </div>
-                </li>
+
                 <li className="checklist is-justify-top">
                   <div className="bullet-check"></div>
                   <div className="gap-sm">
