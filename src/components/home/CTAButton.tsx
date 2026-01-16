@@ -8,7 +8,7 @@ import AnimatedElement from './AnimatedElement';
 import { createCheckoutSession } from '@/actions/subscription';
 
 // All-Access Subscription Price
-const SUBSCRIPTION_PRICE = 99;
+const SUBSCRIPTION_PRICE = 49;
 
 export default function CTAButton() {
   const [isHovered, setIsHovered] = useState(false);
@@ -73,10 +73,10 @@ export default function CTAButton() {
           >
             <div>
               <div className="button-text-black">
-                {loading ? 'Processing...' : `Get All-Access For Only $${SUBSCRIPTION_PRICE}`}
+                {loading ? 'Processing...' : `All Courses Only $ ${SUBSCRIPTION_PRICE}`}
               </div>
               <div className="button-text">
-                {loading ? 'Redirecting to secure checkout...' : 'Unlimited Access to ALL Courses • One-Time Payment'}
+                {loading ? 'Redirecting to secure checkout...' : 'Access to ALL Courses • One-Time Payment'}
               </div>
             </div>
             <div
